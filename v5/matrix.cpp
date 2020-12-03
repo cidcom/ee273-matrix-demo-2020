@@ -140,9 +140,8 @@ ostream& operator<<(ostream& os, const Matrix& mat)
     {
         for (int j=0; j<mat.ncols; j++)
         {
-            cout << mat.data[i][j] << " ";
+            os << mat.data[i][j] << " ";
         }
-        cout << endl;
     }
     return os;
 }
